@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "momentjs": "^2.0.0",
+    "mongoose": "^6.6.1",
+    "dotenv": "^16.0.2"
+  },
+  "scripts": {
+    "build": "npm run build:web",
+    "build:web": "cd client && npm i && npm run build",
+    "start": "node server.js"
+  },
+  
+  "name": "sgm_backend",
+  "version": "1.0.0",
+  "main": "config.js",
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namakool/trending-sgm-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namakool/trending-sgm-poc/issues"
+  },
+  "homepage": "https://github.com/namakool/trending-sgm-poc#readme",
+  "description": ""
+}

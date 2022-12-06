@@ -1,0 +1,46 @@
+{
+  "sports": [
+    {
+      "id": "3",
+      "name": "Soccer",
+      "displayName": "Soccer",
+      "spectrumId": "3",
+      "competitions": [
+        {
+          "id": "824",
+          "name": "UEFA Europa League Futures",
+          "spectrumId": "824",
+          "_links": {
+            "matches": "/v1/popular-sgm/sport/soccer/competition/UEFA-Europa-League-Futures/matches"
+          },
+          "tournaments": [],
+          "hasMarkets": true
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Tennis",
+      "displayName": "Tennis",
+      "spectrumId": "11",
+      "competitions": [
+        {
+          "id": "307",
+          "name": "Wimbledon",
+          "spectrumId": "307",
+          "tournaments": [
+            {
+              "id": "3070000000006",
+              "name": "Wimbledon Mens Futures",
+              "spectrumId": "3070000000006",
+              "_links": {
+                "matches": "/v1/popular-sgm/sport/tennis/competition/Wimbledon/tournament/WimbledonMens-Futures/matches"
+              }
+            }
+          ],
+          "hasMarkets": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "markets": [
+    {
+      "id": "41903492",
+      "name": "UEFA Europa League Winner 22/23 31/05",
+      "shortName": "Europa League Winner 22/23",
+      "betOption": "Winner",
+      "betOptionSpectrumId": "52",
+      "marketUniqueId": 41903492,
+      "propositions": [
+        {
+          "id": "903334",
+          "name": "Man Utd"
+        },
+        {
+          "id": "903335",
+          "name": "Arsenal"
+        },
+        {
+          "id": "903336",
+          "name": "Roma"
+        },
+        {
+          "id": "903337",
+          "name": "Real Sociedad"
+        },
+        {
+          "id": "903338",
+          "name": "Lazio"
+        }
+      ]
+    }
+  ],
+  "betOptionPriority": ["Winner"]
+}

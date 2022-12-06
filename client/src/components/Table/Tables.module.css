@@ -1,0 +1,114 @@
+.filtercontainer {
+  display: flex;
+}
+.filtermain {
+  width: 114px;
+  box-shadow: 2px;
+  margin: 10px;
+}
+.filterbody {
+  background-color: rgb(0, 133, 66);
+  color: white;
+  font-weight: 600;
+}
+.filteroption {
+  background-color: white;
+  color: black;
+}
+
+.head {
+  color: rgb(0, 133, 66);
+  background-color: white;
+}
+
+.body {
+  background-color: rgb(233, 231, 231);
+}
+.white {
+  background-color: white;
+}
+.gray {
+  background-color: rgb(233, 231, 231);
+}
+
+.check {
+  accent-color: rgb(0, 133, 66);
+}
+.orange,
+.green {
+  color: white;
+}
+
+td.orange {
+  background-color: orange;
+  margin: 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  padding: 5px 26px;
+  border: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+}
+td.orange:hover {
+  color: white;
+}
+td.green {
+  background-color: rgb(0, 133, 66);
+  text-transform: capitalize;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 25px;
+  border: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 15px;
+}
+td.green:hover {
+  color: white;
+}
+.space1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  color: rgb(72, 146, 248);
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  min-width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.space2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  color: rgb(255, 65, 65);
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  min-width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+  padding: 10px;
+}
+
+.t_flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1065px) {
+  .space1 {
+    margin: 0px 0px 3px 3px;
+  }
+  .space2 {
+    margin-top: 5px;
+  }
+}
